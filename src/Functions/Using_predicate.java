@@ -12,3 +12,4 @@ public class Using_predicate {
         System.out.println(checkEven.test(7));
     }
 }
+// return type for predicate is boolean.
