@@ -21,7 +21,7 @@ public class Checked_exceptions {
 
         // 2. FileNotFoundException
         try {
-            FileReader fr = new FileReader("abc.txt");
+            FileReader fr = new FileReader("src/Exceptions/abc");
             fr.close();
         } catch (FileNotFoundException e) {
             System.out.println("FileNotFoundException: " + e.getMessage());
